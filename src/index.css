@@ -21,6 +21,20 @@
     font-style: normal; 
 }
 
+@font-face {
+    font-family: 'cormorantGaramond'; /* The name you will use in your styles */
+    src: url('./fonts/cormorant-garamond/CormorantGaramond-Regular.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'marckScript'; /* The name you will use in your styles */
+    src: url('./fonts/marck-script/MarckScript-Regular.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal; 
+}
+
 *{
     margin: 0;
 }
@@ -54,7 +68,12 @@
 .custom-font-cinzel{
     font-family: 'CinzelRegular', sans-serif;
 }
-
+.custom-font-cormorant-garamond{
+    font-family: 'cormorantGaramond', serif;
+}
+.custom-font-marck-script{
+    font-family: 'marckScript', cursive;
+}
 
 @keyframes fadeInUp {
     from {
